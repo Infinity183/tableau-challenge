@@ -4972,7 +4972,7 @@
             <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='4046' id='3' w='98426' x='787' y='830' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='6535' id='4' paired-zone-id='5' removable='false' w='98426' x='787' y='4876' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='87759' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='11411'>
-              <flipboard active-id='5' nav-type='dot' show-nav-arrows='true'>
+              <flipboard active-id='1' nav-type='dot' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Representation by Gender' captured-sheet='Dashboard 1 - Gender' id='1' />
                   <story-point caption='Average Trip Length' captured-sheet='Dashboard 2 - Trip Length' id='2' />
@@ -4996,7 +4996,18 @@
                       </worksheet>
                     </capturedDeltas>
                   </story-point>
-                  <story-point captured-sheet='Dashboard 5' id='5' />
+                  <story-point captured-sheet='Dashboard 5' id='5'>
+                    <capturedDeltas>
+                      <worksheet name='Average Trip Length by Station'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.0fb5izm06oekec1do4cr21267vg4].[none:start station latitude:qk]' field-type='quantitative' max='4986713.7096370012' min='4960152.1964361062' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.0fb5izm06oekec1do4cr21267vg4].[none:start station longitude:qk]' field-type='quantitative' max='-8214610.7452555746' min='-8251926.9931619652' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
                 </story-points>
               </flipboard>
             </zone>
